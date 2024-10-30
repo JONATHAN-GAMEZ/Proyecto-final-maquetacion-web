@@ -58,6 +58,7 @@ header{
     font-size: 35px;
     z-index: 51; /*para que aparezca sobre el header*/
     cursor: pointer;
+    display: none;
 }
 
 #menu-toogle{
@@ -267,7 +268,8 @@ section{
 
     }
 
-    #menu-toogle:checked + label.menu-icon-action + ul{
+    .navlist.open{
         right: 0;
     }
+
 }
